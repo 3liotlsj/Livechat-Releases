@@ -22,5 +22,5 @@ Ce projet est développé par **3liotlsj**.
 Un bug rencontré ? Une suggestion d'amélioration ? Ou simplement besoin d'aide pour configurer l'overlay ? 
 N'hésitez pas à me contacter directement sur Discord !
 
-👉 **[Contact](https://discordapp.com/users/TON_ID_DISCORD_ICI)**
+👉 **[Contact](https://discordapp.com/users/1014275331676446781)**
 
