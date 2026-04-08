@@ -57,8 +57,8 @@ Once the Token and Channel ID are entered in the application, you can set up you
 
 Project developed by **3liotlsj**.
 
-For any questions, suggestions, or requests for technical assistance regarding the configuration, you can contact me on Discord:
+For any questions, suggestions, or requests for technical assistance regarding the configuration, you can contact me on **[Discord](https://discordapp.com/users/1014275331676446781)**:
 
-**[Chat with @3liotlsj](https://discordapp.com/users/TON_ID_DISCORD_ICI)**
+
 
 *(Preferably use the Discord application so the link correctly opens the profile).*
