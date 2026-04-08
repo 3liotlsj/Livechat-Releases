@@ -1,64 +1,64 @@
-# Livechat Overlay pour Discord
+# Livechat Overlay for Discord
 
-Livechat Overlay est un outil léger et transparent destiné aux streamers et aux joueurs. Il permet d'afficher en temps réel les messages d'un salon Discord en superposition sur n'importe quel jeu ou application, sans interférer avec la souris grâce à son mode "clic-au-travers" (click-through).
+Livechat Overlay is a lightweight and transparent tool designed for streamers and gamers. It allows you to display messages from a Discord channel in real-time, overlaid on any game or application, without interfering with your mouse thanks to its "click-through" mode.
 
 ---
 
 ## Installation
 
-1. Accédez à la section **[Releases](../../releases/latest)** située sur la droite.
-2. Téléchargez l'exécutable de la dernière version (`Livechat-Overlay-Setup-X.X.X.exe`).
-3. Lancez le fichier téléchargé pour procéder à l'installation.
-4. Démarrez l'application depuis le raccourci créé sur votre bureau.
+1. Go to the **[Releases](../../releases/latest)** section on the right side of this page.
+2. Download the executable for the latest version (`Livechat-Overlay-Setup-X.X.X.exe`).
+3. Run the downloaded file to proceed with the installation.
+4. Launch the application from the shortcut created on your desktop.
 
-> **Note :** L'application intègre un système de mise à jour automatique. Les nouvelles versions seront téléchargées et installées silencieusement lors du lancement.
+> **Note:** The application features an automatic update system. New versions will be downloaded and installed silently upon launch.
 
 ---
 
-## Configuration du Bot Discord (Prérequis)
+## Discord Bot Configuration (Prerequisites)
 
-Pour que l'overlay puisse accéder aux messages de votre serveur, la création d'un Bot Discord personnel est nécessaire.
+For the overlay to access messages from your server, creating a personal Discord Bot is required.
 
-### Étape 1 : Créer l'application
-1. Connectez-vous au **[Discord Developer Portal](https://discord.com/developers/applications)**.
-2. Cliquez sur **New Application** en haut à droite, nommez votre application (ex: *Livechat*) et validez.
-3. Dans le menu latéral gauche, accédez à la section **Bot**.
+### Step 1: Create the Application
+1. Log in to the **[Discord Developer Portal](https://discord.com/developers/applications)**.
+2. Click on **New Application** in the top right corner, name your application (e.g., *Livechat*), and confirm.
+3. In the left sidebar menu, go to the **Bot** section.
 
-### Étape 2 : Activer les Intents
-1. Sur la page **Bot**, descendez jusqu'à la section **Privileged Gateway Intents**.
-2. Activez l'option **Message Content Intent**.
-3. Sauvegardez via le bouton **Save Changes** en bas de page.
+### Step 2: Enable Intents
+1. On the **Bot** page, scroll down to the **Privileged Gateway Intents** section.
+2. Enable the **Message Content Intent** option.
+3. Save by clicking the **Save Changes** button at the bottom of the page.
 
-### Étape 3 : Récupérer le Token
-1. Sur la même page, remontez à la section **Token**.
-2. Cliquez sur **Reset Token** (puis confirmez).
-3. Copiez le code généré. Ce Token sera à insérer dans les Réglages Avancés de l'application Livechat.
+### Step 3: Retrieve the Token
+1. On the same page, scroll back up to the **Token** section.
+2. Click on **Reset Token** (and then confirm).
+3. Copy the generated code. This Token must be entered in the Advanced Settings of the Livechat application.
 
-> **Attention :** Ne partagez jamais votre Token. Il permet à quiconque de contrôler votre bot.
+> **Warning:** Never share your Token. It allows anyone to control your bot.
 
-### Étape 4 : Inviter le Bot sur le serveur
-1. Cliquez sur **OAuth2** puis **URL Generator** dans le menu de gauche.
-2. Dans la section *Scopes*, cochez **bot**.
-3. Dans la section *Bot Permissions*, cochez **Read Messages/View Channels**.
-4. Copiez l'URL générée en bas de page, ouvrez-la dans un nouvel onglet, sélectionnez votre serveur et autorisez le bot.
+### Step 4: Invite the Bot to Your Server
+1. Click on **OAuth2** and then **URL Generator** in the left menu.
+2. In the *Scopes* section, check the **bot** box.
+3. In the *Bot Permissions* section, check **Read Messages/View Channels**.
+4. Copy the URL generated at the bottom of the page, open it in a new tab, select your server, and authorize the bot.
 
-### Étape 5 : Récupérer l'ID du salon
-L'application doit cibler un salon spécifique pour récupérer les messages.
-1. Ouvrez Discord.
-2. Rendez-vous dans les Paramètres (roue crantée) > **Avancé** et activez le **Mode Développeur**.
-3. Faites un clic droit sur le salon ciblé et sélectionnez **Copier l'identifiant du salon**.
-4. Collez cet ID dans les Réglages Avancés de l'application.
+### Step 5: Retrieve the Channel ID
+The application must target a specific channel to fetch messages.
+1. Open Discord.
+2. Go to User Settings (gear icon) > **Advanced** and enable **Developer Mode**.
+3. Right-click on the targeted channel and select **Copy Channel ID** (or just "Copy ID").
+4. Paste this ID into the Advanced Settings of the application.
 
-Une fois le Token et l'ID du salon renseignés dans l'application, vous pouvez configurer votre profil et lancer l'overlay.
+Once the Token and Channel ID are entered in the application, you can set up your profile and launch the overlay.
 
 ---
 
 ## Support
 
-Projet développé par **3liotlsj**.
+Project developed by **3liotlsj**.
 
-Pour toute question, suggestion ou demande d'assistance technique concernant la configuration, vous pouvez me contacter sur Discord :
+For any questions, suggestions, or requests for technical assistance regarding the configuration, you can contact me on Discord:
 
-**[Discuter avec @3liotlsj](https://discordapp.com/users/TON_ID_DISCORD_ICI)**
+**[Chat with @3liotlsj](https://discordapp.com/users/TON_ID_DISCORD_ICI)**
 
-*(Utilisez l'application Discord de préférence pour que le lien s'ouvre correctement sur le profil).*
+*(Preferably use the Discord application so the link correctly opens the profile).*
